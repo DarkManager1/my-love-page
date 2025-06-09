@@ -6,7 +6,6 @@
 <title>To my Love</title>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display&family=Pacifico&display=swap" rel="stylesheet">
 <style>
-
 	body {
 		background-image: url('https://i.ibb.co/b51Yb1vr/image-2025-05-31-171636179.png');
 		background-size: cover;
@@ -19,7 +18,6 @@
 		font-family: 'Playfair Display' , serif;
 		overflow: hidden;
 	}
-		
 		.message-box {
 			background: rgba(255,255,255,0.1);
 			border: 2px solid white;
@@ -29,36 +27,30 @@
 			margin: 40px auto;
 			box-shadow: 0 0 15px white;
 	}	
-		
 		.song-link {
 			font-family:'Playfair Display' , serif;
 			font-size: 24px;
 			color: white;
 			text-decoration: none; 
-	}
-			
+	}	
 		.song-link:hover {
 			text-shadow: 0 0 10px white;
 	}
-	
 		.love-message {
 		color:white;
 		font-size: 30px;
 		text-shadow: 0 0 10px white;
-	}
-			
+	}	
 		.mine-title {
 			color:white;
 			font-size:90px;
 			font-family: 'pacifico' , cursive;
 			margin-top: 200px;
 	}
-			
 		@keyframes float{
 			0% {transform: translateY(0); opacity: 1;}
 			100% {transform: translateY(-100vh); opacity: 0;}
 		}
-		
 		.heart {
 			position: absolute;
 			width: 20px;
@@ -67,7 +59,6 @@
 			transform: rotate(45deg);
 			animation: float 2s infinite;
 	}
-		
 		.heart::before,
 		.heart::after {
 			content: "";
@@ -77,12 +68,10 @@
 			background: red;
 			border-radius: 50%;
 	}	
-			
 		.heart::before {
 			top: -10px;
 			left: 0;
 	}
-
 		.heart::after {
 			top: 0;
 			left: -10px;
@@ -92,23 +81,18 @@
 			width: 90%;
 			padding: 15px;
 	}
-
 		.mine-title { 
 			font-size: 50px;
 			margin-top: 100px;
 	}
-	
 		.button	{
 		font-size: 30px;
-		padding: 8px 15px;
-		
+		padding: 8px 15px;	
 	}
-
 		img {
 			width: 90%;
 			height: auto;
 	}
-	
 	}
 </style>
 </head>
