@@ -1,4 +1,3 @@
-# my-love-page
 <!DOCTYPE html>
 <html lang="en">
 <head>
