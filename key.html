@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset= "UTF-8">
+ <title>סיסמא קטנה </title>
+ </head>
+<body style = "text-align:center; padding-top:100px; font-family:sans-serif;">
+	<h2>👀 משהו קסום מחכה לך... הקלידי את הקוד:</h2>
+	<input type= "password" id= "pass" placeholder= "הסיסמא הסודית">
+	<button onclick ="checkPassword()">כניסה</button>
+<p id= "error" style= "color:red;"></p>
+
+<script>
+function checkPassword() {
+const password = document.getElementById("pass").value;
+if (password === "אבי תמיד צודק")	{
+ window.location.href = "https://darkmanager1.github.io/digital-rose/";
+ }
+ else {
+ document.getElementById ("error").textContent = "😢וומפ וומפ הסיסמא שגויה";
+		}
+	}
+  </script>
+</body>
+</html>
+ 
+
+	
+	
+	
+	
+	
