@@ -58,14 +58,22 @@ if (password === "אבי תמיד צודק")	{
  }
  else {
 failcount++;
+	 if (failcount > 5) {
+		 failcount = 1;
+	 }	 
 let message = "";
 	 if (failcount === 1) {
 		 message = "😢 וומפ וומפ, הסיסמה שגויה";
 	 } else if (failcount === 2) {
 		 message = "הפרחים אדומים, טעית ובגדול יש האומרים שאבי הוא כל יכול";
 	 } else if (failcount === 3) {
-		 message = "אחחח עוד טעות...  <br>מה זה אומר??? שצריך להתגייס!!!!"
- document.getElementById ("error").textContent = message;
+		 message = "אחחח עוד טעות...  <br>מה זה אומר??? שצריך להתגייס!!!!";
+	 }  else if (failcount === 4) {
+		  message = "זהירות!!! טעות אחת ואת בדרכך להיות סיני.";
+	 }else if (failcount === 5) {
+		 message = "תאמיני לי היטלר צדק, אולי אנחנו נחותים למרות הכל..."
+	 }	 
+ document.getElementById ("error").innerHTML = message;
 		}
 	}
   </script>
